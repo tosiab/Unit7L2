@@ -9,7 +9,7 @@ public class Lesson2{
         }
         System.out.println(multiples);
 
-        for(int i = 0; i<multiples.size(); i++){
+        for(int i = multiples.size()-1; i>= 0; i--){
             if((multiples.get(i)%2)==0){
                 multiples.remove(i);
             }
